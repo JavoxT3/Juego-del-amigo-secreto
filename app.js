@@ -7,8 +7,13 @@ let amigos = [];
 function añadirNombre(){
     let nombreIngresado = document.getElementById('amigo').value;
 
+    if (nombreIngresado.trim() === ""){
+        alert('Por favor inserte un nombre')
+        return;
+    }   
    amigos.push(nombreIngresado);
 
    console.log(amigos);
+    }
 
-}
+
