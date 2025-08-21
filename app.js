@@ -16,7 +16,7 @@ function añadirNombre() {
         return;
     }   
     
-    
+
     amigos.push(nombreIngresado);
     LimpiaCampoDeTexto();
     
@@ -33,3 +33,22 @@ function mostrarLista() {
         lista.innerHTML += `<li>${amigo}</li>`;
     });
 }
+
+function sortearAmigo() {
+    if (amigos.length === 0) {
+        alert('La lista esta vacia, Ingresa un nombre')
+        return;
+    }
+}
+
+
+    /*let index = [];
+
+    amigos.forEach(function(elemento, indice) {
+        index = index + (indice + 1);
+    });
+
+    if (index > 1) {
+        let nombreSorteado = Math.floor(Math.random()* index.length)+1;
+        console.log(nombreSorteado, []);
+    }*/
