@@ -43,6 +43,8 @@ function sortearAmigo() {
     let indiceSorteado = Math.floor(Math.random()*amigos.length);
     let amigoSorteado = amigos[indiceSorteado];
 
-    alert(`El amigo elegido es: ${amigoSorteado}`);
-    
-}
+    console.log (`El amigo elegido es: ${amigoSorteado}`);
+
+        let amigoescogido = document.getElementById('resultado')
+        amigoescogido.innerHTML = `<li> El amigo elegido es:<br><strong>${amigoSorteado}</strong></li>`;
+    }
