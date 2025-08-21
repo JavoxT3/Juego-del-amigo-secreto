@@ -39,16 +39,7 @@ function sortearAmigo() {
         alert('La lista esta vacia, Ingresa un nombre')
         return;
     }
+
+    let indiceSorteado = Math.floor(Math.random()*amigos.length);
+    
 }
-
-
-    /*let index = [];
-
-    amigos.forEach(function(elemento, indice) {
-        index = index + (indice + 1);
-    });
-
-    if (index > 1) {
-        let nombreSorteado = Math.floor(Math.random()* index.length)+1;
-        console.log(nombreSorteado, []);
-    }*/
