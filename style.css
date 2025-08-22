@@ -160,3 +160,13 @@ ul {
 .button-draw:hover {
     background-color: var(--color-button-hover);
 }
+
+.button-dra {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px 40px;
+    color: var(--color-black);
+    background-color: var(--color-white);
+    font-size: 16px;
+}
